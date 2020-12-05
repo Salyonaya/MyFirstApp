@@ -3,7 +3,6 @@ import java.time.LocalDateTime
 import java.time.temporal.ChronoUnit
 
 fun main() {
-  
     val GOAL = 200
     val DAYS = 31
     val DAYGOAL = GOAL / DAYS
