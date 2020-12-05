@@ -3,7 +3,7 @@ import java.time.LocalDateTime
 import java.time.temporal.ChronoUnit
 
 fun main() {
-   //println("some value: %.2f - ok, %f, %d, 0x%H, '%s'".format(55.123456, 33.012, 44, 44, "uyx"))
+  
     val GOAL = 200
     val DAYS = 31
     val DAYGOAL = GOAL / DAYS
