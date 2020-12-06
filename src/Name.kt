@@ -12,7 +12,9 @@ fun main() {
     val DAYGOAL = GOAL / DAYS
     val STARTDAY = "2020-11-30"
     val goal = ChronoUnit.DAYS.between(LocalDate.parse(STARTDAY), LocalDateTime.now()) * DAYGOAL
+    print("Enter hours> ")
     val passedhours = readLine()!!.toDouble()
+    print("Enter minutes> ")
     val passedminutes = readLine()!!.toDouble()
     val passed = passedhours + (passedminutes / 60)
     val h = (goal - passed)
